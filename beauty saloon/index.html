@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- navbar -->
+   <div class="navbar">
+       <ul><a href="#">HOME</a></ul>
+       <ul><a href="#">SERVICES</a></ul>
+       <ul><a href="#">BRIDAL</a></ul>
+       <ul><a href="#">COURSE</a></ul>
+       <ul><a href="#">FIX AN APPOINMENT</a></ul>
+        <ul><a href="#">CONTACT US</a></ul>
+   </div>
+   <!-- img-section -->
+  <div class="img-section">
+            <img src="bg1.jpeg" alt="">
+  </div>
+  <!-- data-section -->
+   <div class="data-section">
+           <div class="data-section-1">
+              <div class="course">Courses
+                 <span>></span>
+            </div>
+            <div class="d-s-t">
+                News Letter 
+               <p>Sign Up</p>
+            </div>
+            <div class="user-name">
+                <p>enter your name..</p>
+            </div>
+            <div class="user-name">
+                <p>enter your email..
+                    <span>></span>
+                </p>
+                
+            </div>
+           </div>
+           <div class="data-section-2">
+                <h2>WelCome</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, <br>ipsum libero! Culpa iusto tenetur repudiandae <br>temporibus praesentium aspernatur accusantium? Iure omnis eligendi,  quia expedita natus!
+                    <br>ipsum libero! Culpa iusto tenetur repudiandae <br>temporibus praesentium aspernatur accusantium? Iure omnis eligendi,  quia expedita natus!
+                </p>
+               <button>Read More.</button>
+            </div>
+           <div class="data-section-2">
+                <h2>Services</h2>
+                <li>Appointment confirmations: Confirming a booking </li>
+                <li>Appointment confirmations: Confirming a booking   and other thing. </li>
+                <li>Appointment confirmations: Confirming a booking </li>
+                <li>Appointment confirmations: Confirming a booking </li>
+                <li>Appointment confirmations: Confirming a booking </li>
+                <li>Appointment confirmations: Confirming a booking </li>
+                <li>Appointment confirmations: Confirming a booking </li>
+                <li>Appointment confirmations: Confirming a booking </li>
+            </div>
+   </div>
+   <!-- img-section -->
+<div class="img-section">
+    
+    <button>
+      <
+    </button>
+   <div class="img-slider">
+        <div class="other-img-section">
+           
+             <div class="img">
+                <img src="bi1.jpeg" alt="">
+                <h4>this product use for face wash</h4>
+                <h5>Price is only  Rs. 100 </h5>
+             </div>
+
+
+        </div>
+        <div class="other-img-section">
+           
+            <div class="img">
+                <img src="bi2.jpeg" alt="">
+                <h4>this product use for body </h4>
+                <h5>Price is only  Rs. 250 </h5>
+             </div>
+
+
+        </div>
+        <div class="other-img-section">
+           
+
+            <div class="img">
+                <img src="bi3.jpg" alt="">
+                <h4>this product use for face creame</h4>
+                <h5>Price is only  Rs. 1000 </h5>
+             </div>
+
+        </div>
+
+
+   </div>
+    <button>
+        >
+      </button>
+      <div class="music-button">
+          <h3>This button use for on/ off the song</h3>
+         <!-- <audio id="song">
+            <source src="click.mp3">
+         </audio> -->
+         <audio  id="audio"> 
+            <source src="click.mp3" type="audio/mpeg">
+         </audio>
+         
+         <button id="btn" onclick="playPause()">
+            on/off
+         </button>
+      </div>
+</div>
+<!-- footer -->
+ <footer>
+     <p>This web page is created by heart</p>
+     <p>this web-page is created using html and css</p>
+
+
+ </footer>
+
+</div>  
+
+<script >
+    
+        
+
+//   window.addEventListener('click', () =>{
+//     document.getElementById("song").play();
+//   });
+
+var audio =  document.getElementById("audio");
+var playPauseBTN =  document.getElementById("playPauseBTN");
+var count = 0;
+
+function playPause(){
+    if(count == 0){
+        count = 1;
+        audio.play();
+    }else{
+        count = 0;
+        audio.pause();
+    }
+}
+
+</script>
+</body>
+</html>
